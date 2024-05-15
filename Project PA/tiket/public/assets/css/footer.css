@@ -1,0 +1,19 @@
+footer {
+    
+    background-color: #343a40; /* Dark gray color for better contrast and modern look */
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    z-index: 2; /* Ensure footer is above other content if overlapping occurs */
+}
+
+footer p, footer a {
+    margin-right: 20px;
+    color: #ffffff;
+    text-decoration: none; /* Removes underline from links */
+}
+
+footer a:hover {
+    color: #dddddd; /* Slightly lighter gray on hover for a subtle effect */
+}

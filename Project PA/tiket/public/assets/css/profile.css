@@ -1,0 +1,58 @@
+/* Styling untuk mengatur ukuran konten card content */
+.profile .card-content {
+    max-width: 800px; /* Lebar maksimum konten */
+    margin: 0 auto; /* Konten berada di tengah secara horizontal */
+    font-size: 16px; /* Ukuran teks konten */
+    line-height: 1.5; /* Tinggi baris */
+}
+
+/* Styling untuk label pada bagian profile */
+.profile .label {
+    font-weight: 500; /* Ketebalan teks label */
+    color: #6c757d; /* Warna teks label */
+}
+
+/* Styling untuk setiap bagian di dalam main */
+.section {
+    margin-bottom: 30px; /* Jarak antara setiap bagian */
+}
+
+/* Styling untuk bagian profile */
+.profile {
+    padding: 0 15px; /* Padding horizontal */
+}
+
+/* Styling untuk card pada bagian profile */
+.profile .card {
+    border: none; /* Hapus border card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Efek bayangan card */
+    width: 100%; /* Lebar card */
+    max-width: 800px; /* Lebar maksimum card */
+    margin: auto; /* Tengahkan card */
+}
+
+/* Styling untuk card title pada bagian profile */
+.profile .card-title {
+    font-size: 1.25rem; /* Ukuran teks card title */
+    margin-bottom: 15px; /* Jarak bawah */
+}
+
+/* Pusatkan teks pada card body */
+.card-body.profile-card {
+    text-align: center;
+}
+
+/* Atur ukuran font untuk judul h2 pada card body */
+.card-body.profile-card h2 {
+    font-size: 1.5rem; /* Ukuran teks judul h2 */
+    margin: 0; /* Hilangkan margin agar tidak terlalu jauh dari atas */
+    padding: 10px 0; /* Padding agar konten tidak terlalu rapat dengan border */
+    overflow: hidden; /* Hindari teks meluap */
+    text-overflow: ellipsis; /* Teks yang meluap ditampilkan sebagai ellipsis */
+    white-space: nowrap; /* Hindari pemisahan kata */
+}
+
+/* Styling untuk konten di bawah header */
+.content-container {
+    margin-top: 60px; /* Sesuaikan dengan tinggi header Anda */
+}

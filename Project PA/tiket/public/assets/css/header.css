@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #ffffff; /* Keeps the navbar white for a clean look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 10px 0;
+}
+
+.navbar-brand img {
+    height: 70px; /* Adjusted to a more reasonable size */
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.nav-link {
+    margin: 5px 10px; /* Adds a bit of spacing around links for better touch interaction */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: #007bff; /* Bootstrap primary color for consistency */
+}
+
+/* Improves the dropdown menu appearance */
+.dropdown-menu {
+    display: none;
+    border-radius: 0; /* Matches the more angular design language */
+}
+
+.dropdown-menu.show {
+    display: block;
+}

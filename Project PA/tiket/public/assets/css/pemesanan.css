@@ -1,0 +1,84 @@
+/* CSS for Pemesanan Page */
+.page-single {
+    padding: 20px 0;
+    background-color: #f9f9f9;
+}
+
+.container-holder {
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.step-item {
+    padding: 20px;
+}
+
+.step-number {
+    font-size: 40px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.step-w {
+    position: relative;
+}
+
+.step-item h3 {
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.step-item p {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.img-100 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; 
+}
+
+.img-step {
+    position: relative; /* Menjadikan posisi relatif */
+    background-color: #007bff;
+    border-radius: 40px; /* Ubah nilai sesuai keinginan */
+    width: 700px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    margin-left: 50px;
+}
+
+.img-step img {
+    position: relative; 
+    border-radius: 20px; 
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.card-header {
+    background-color: #f7f7f7;
+    border: none;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-body {
+    border-top: 1px solid #f7f7f7;
+    font-size: 14px;
+    color: #333333;
+    line-height: 1.6;
+}
+

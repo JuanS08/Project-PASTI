@@ -1,0 +1,77 @@
+/* Container styling */
+.container2 {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label styling */
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    display: block;
+}
+
+/* Input field styling */
+.input-field {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-field input {
+    width: calc(100% - 40px);
+    /* Adjusted width to accommodate eye icon */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Password toggle icon styling */
+.password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Media query for responsive layout */
+@media (max-width: 768px) {
+    .container2 {
+        width: 100%;
+        padding: 10px;
+    }
+}

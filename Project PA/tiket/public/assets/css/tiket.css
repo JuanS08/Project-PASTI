@@ -1,0 +1,231 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    /* Pastikan semua konten navbar sejajar di tengah secara vertikal */
+    justify-content: space-between;
+    /* Menyebar konten navbar secara merata */
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.navbar-brand img {
+    height: 70px;
+    /* Pastikan logo tidak terlalu besar atau kecil */
+}
+
+.navbar-toggler {
+    border: none;
+    margin-right: 10px;
+    /* Tambahkan margin kanan untuk jarak dengan elemen lain */
+}
+
+.navbar-collapse {
+    display: flex;
+    flex-grow: 1;
+    /* Navbar collapse mengambil ruang yang tersedia */
+    align-items: center;
+}
+
+.nav-tabs {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    /* Menyebar tabs secara merata */
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    margin: 5px 10px;
+    /* Adds a bit of spacing around links for better touch interaction */
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #007bff;
+    /* Hover and focus state */
+}
+
+.dropdown-menu {
+    border-radius: 0;
+}
+
+.profile-img {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+}
+
+.nav-link.nav-profile {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    /* Remove padding if not needed */
+    padding-right: 0;
+    /* Adjust padding to align with design */
+}
+
+.nav-link.nav-profile .dropdown-toggle {
+    margin-left: auto;
+    margin-left: 5px;
+    /* Slight space between image and name */
+}
+
+/* Ensure dropdown is positioned correctly */
+.dropdown-menu {
+    margin-top: 0.5rem;
+    /* Adjust as needed */
+}
+
+.profile-img {
+    height: 40px;
+    /* Ubah tinggi gambar profil sesuai kebutuhan */
+    width: 40px;
+    /* Ubah lebar gambar profil sesuai kebutuhan */
+    margin-right: auto;
+    /* Tambahkan margin kanan agar terpisah dari teks */
+}
+
+/* CSS for ticket form */
+.ticket-info {
+    border-radius: 70px;
+    background-color: #ffffff;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.ticket-info form {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.ticket-info label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.ticket-info input[type="date"],
+.ticket-info input[type="text"],
+.ticket-info input[type="number"],
+.ticket-info input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+.ticket-info input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.ticket-info input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* CSS for features section */
+.section-heading {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: auto;
+    font-style: italic;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.feature-1 {
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+/* CSS for blog section */
+.post-entry {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.review {
+    text-align: center;
+}
+
+.post-entry img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.post-text {
+    padding: 20px;
+}
+
+.post-meta {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.post-text h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.post-text p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.post-text .readmore {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.post-text .readmore:hover {
+    text-decoration: underline;
+}
+
+/* CSS for swiper container */
+.swiper-container {
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    /* center the swiper container */
+}
+
+.swiper-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.swiper-slide {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .swiper-slide {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 576px) {
+    .swiper-slide {
+        width: 100%;
+    }
+}

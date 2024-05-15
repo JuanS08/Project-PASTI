@@ -1,0 +1,69 @@
+.bus-container {
+    text-align: center;
+}
+
+.title {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.bus-top-view {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.seat-row {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.seat {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin: 2px;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.green {
+    background-color: #4CAF50;
+}
+
+.black {
+    background-color: #000;
+}
+
+.storage {
+    background-color: #FFA500;
+    width: 100%; /* Full width to emphasize storage area */
+}
+
+.color-box {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #000;
+}
+
+.green {
+    background-color: #4CAF50;
+}
+
+.red {
+    background-color: #F44336;
+}
+
+.orange {
+    background-color: #FFA500;
+}
+
+.notes {
+    text-align: left;
+    font-size: 12px;
+}
